@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
+echo -e "\e[4;31m Badshah-hacker420 Productions !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
-echo -e "\e[1;32m TBomb \e[0m"
+echo -e "\e[1;32m Badshah \e[0m"
 echo "Press Enter To Continue"
 read a1
-if [[ -s update.speedx ]];then
+if [[ -s update.Badshah-hacker ]];then
 echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
@@ -14,7 +14,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Made By SpeedX >update.speedx
+echo This Script Was Made By Badshah-hacker420 >update.speedx
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -34,8 +34,8 @@ echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
 echo " "
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo " "
-echo "Press 1 To  Start SMS Bomber "
-echo "Press 2 To  Start Call Bomber "
+echo "Press 1 To  Start call Bomber "
+echo "Press 2 To  Start SMS Bomber "
 echo "Press 3 To  Update (Works On Linux And Linux Emulators) "
 echo "Press 4 To  View Features "
 echo "Press 5 To  Exit "
@@ -50,7 +50,7 @@ exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
-echo 'Call Bomb By SpeedX'> call.xxx
+echo 'Call Bomb By Badshah-hacker420'> call.xxx
 python3 bomber.py call
 rm *.xxx >/dev/null 2>&1
 exit 0
@@ -79,7 +79,7 @@ clear
 echo -e "\e[1;33m"
 figlet TBomb
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border SpeedX
+toilet -f mono12 -F border Badshah
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
